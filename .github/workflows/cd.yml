@@ -38,7 +38,7 @@ jobs:
           INITIAL_VERSION: 0.0.0
           WITH_V: true
           WITH_CONVENTIONAL_COMMITS: true
-          DEFAULT_BUMP: patch
+          DEFAULT_BUMP: minor 
           ENABLE_EARLY_STAGE_VERSIONS: true
 
       - name: Create Automatic Release
